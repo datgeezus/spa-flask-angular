@@ -33,4 +33,5 @@ services:
     ports: 
       - 5432:5432
     environment:
+      POSTGRES_DB: online-exam
       POSTGRES_PASSWORD: LocalPassword
